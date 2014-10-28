@@ -18,7 +18,7 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author Ildevana
  */
-@WebServlet(name = "Cadastro", urlPatterns = {"/Cadastro"})
+@WebServlet(name = "Reserva", urlPatterns = {"/Reserva"})
 public class Cadastro extends HttpServlet {
 
     /**
@@ -39,10 +39,10 @@ public class Cadastro extends HttpServlet {
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
-            out.println("<title>Servlet Cadastro</title>");            
+            out.println("<title>Servlet Reserva</title>");            
             out.println("</head>");
             out.println("<body>");
-            out.println("<h1>Servlet Cadastro at " + request.getContextPath() + "</h1>");
+            out.println("<h1>Servlet Reserva at " + request.getContextPath() + "</h1>");
             out.println("</body>");
             out.println("</html>");
            

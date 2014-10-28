@@ -6,13 +6,13 @@
 
 package Model;
 
-import javax.faces.bean.ManagedBean;
+import javax.inject.Named;
 
 /**
  *
  * @author Ildevana
  */
-@ManagedBean(name="clienteBean")
+@Named("clienteBean")
 public class Cliente {
     private int idCliente;
     private String nome;
